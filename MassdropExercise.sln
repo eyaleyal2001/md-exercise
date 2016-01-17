@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassdropExercise", "MassdropExercise\MassdropExercise.csproj", "{F303EFEB-4BD5-434E-802D-DF0EB1DCA321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassdropExerciseData", "MassdropExerciseData\MassdropExerciseData.csproj", "{7B2B3178-48FD-4563-8D65-6F6B621B7606}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassdropProcess", "MassdropProcess\MassdropProcess.csproj", "{17468D51-6B04-4DCF-8516-A3142DB4CDFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F303EFEB-4BD5-434E-802D-DF0EB1DCA321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F303EFEB-4BD5-434E-802D-DF0EB1DCA321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F303EFEB-4BD5-434E-802D-DF0EB1DCA321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F303EFEB-4BD5-434E-802D-DF0EB1DCA321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B2B3178-48FD-4563-8D65-6F6B621B7606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2B3178-48FD-4563-8D65-6F6B621B7606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2B3178-48FD-4563-8D65-6F6B621B7606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2B3178-48FD-4563-8D65-6F6B621B7606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17468D51-6B04-4DCF-8516-A3142DB4CDFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17468D51-6B04-4DCF-8516-A3142DB4CDFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17468D51-6B04-4DCF-8516-A3142DB4CDFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17468D51-6B04-4DCF-8516-A3142DB4CDFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
