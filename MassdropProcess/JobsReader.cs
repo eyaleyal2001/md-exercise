@@ -30,17 +30,18 @@ namespace MassdropProcess
 
                 using (var dbContext = new MassdropContext())
                 {
-                    var jobs = from jobItem in dbContext.UrlJobs
+                    var jobs = (from jobItem in dbContext.UrlJobs
                                where jobItem.JobStatus == JobStatus.New
-                               select jobItem;
+                                select jobItem).ToList();
 
                     foreach (Job jobItem in jobs)
                     {
-                        jobItem.JobStatus = JobStatus.InQueue;
-                        _JobsQueue.Enqueue(jobItem);
+                        jobItem.JobStatus = JobStatus.InQueue;                        
                     }
 
                     dbContext.SaveChanges();
+
+                    jobs.ForEach(x => _JobsQueue.Enqueue(x));
                 }
 
              
